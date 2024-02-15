@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300;400&family=Protest+Strike&display=swap');
+
+
+.mainCont{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+
+
+.title{
+    position: absolute;
+    top: 10px;
+    font-size: 65px;
+    border: 1px;
+    -webkit-text-stroke: 0.1px rgba(14, 13, 13, 0.641);
+}
+
+#column{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+.square{
+    background-color: rgba(14, 13, 13, 0.641);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    gap: 5px;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms;
+    border-radius: 5px;
+    font-size: 30px;
+    
+}
+
+.square:hover{
+    transform: scale(1.1);
+}
+
+.winner{
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.803);
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+button{
+    position: absolute;
+    bottom: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    font-family: "Protest Strike", sans-serif;
+    letter-spacing: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: 200ms;
+    
+}
+
+button:hover{
+    background-color: rgba(107, 107, 107, 0.611);
+}
